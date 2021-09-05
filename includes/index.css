@@ -32,15 +32,32 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #f1f1f1;
+  background: #a30111;
   left: 0px;
   top: -500px;
   z-index: -1;
   transition: 1s;
+  
 }
+
+
 .services .service-box:hover::after {
   top: 0px;
+  
 }
+
+.services .btn {
+  background-color: #a30111;
+  color: #ffffff;
+
+}
+.services .btn:hover{
+  background-color: #ffffff;
+  color: #a30111;
+  
+
+}
+
 .services i {
   display: flex;
   justify-content: center;
@@ -66,11 +83,11 @@
   position: relative;
 }
 .services h4 a {
-  color: #444;
+  color: #a72c28;
   text-decoration: none;
 }
 .services h4 a:hover {
-  color: #a72c28;
+  color: #ffffff;
 }
 .services p {
   line-height: 24px;
